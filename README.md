@@ -77,3 +77,8 @@
     * Compile external data set. (H&E stained dataset)
     * Tried deform conv layer.
       * But doesn’t work out well.
+# Possible Improvements:
+ * More external datasets to generalize to different kind of nuclei.
+ * Using Crop to train instead of resize => Better at dealing with small nuclei.
+ * Try Modified IOU calculation in training phase as well.
+ * Try UNet and Ensemble.
